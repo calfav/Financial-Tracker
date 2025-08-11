@@ -4,11 +4,12 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useFinanceStore } from '@/lib/store-with-supabase';
-import Index from './pages/Index';
-import Transactions from './pages/Transactions';
-import Categories from './pages/Categories';
-import Auth from './pages/Auth';
-import NotFound from './pages/NotFound';
+import Index from './Index';
+import Transactions from './Transactions';
+import Categories from './Categories';
+import Auth from './Auth';
+import NotFound from './NotFound';
+
 
 const queryClient = new QueryClient();
 
